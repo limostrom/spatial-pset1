@@ -1,0 +1,1 @@
+awk -F',' '$3=="2019" {print $3, $4, $13, $14, $15, $16, $37}'  Assessor_-_Parcel_Universe.csv > parcels_test.csv
